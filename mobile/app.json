@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Secure E2EE Messenger",
+    "slug": "secure-e2ee-messenger",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {},
+    "plugins": [
+      "expo-secure-store",
+      "expo-status-bar"
+    ]
+  }
+}
