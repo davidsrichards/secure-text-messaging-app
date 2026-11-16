@@ -13,6 +13,18 @@
     "plugins": [
       "expo-secure-store",
       "expo-status-bar"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d552b8ee-7897-49ee-97a8-fbb142687acf"
+      }
+    },
+    "owner": "davey001",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d552b8ee-7897-49ee-97a8-fbb142687acf"
+    }
   }
 }

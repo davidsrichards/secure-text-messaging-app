@@ -26,7 +26,7 @@ function Root(): React.JSX.Element {
       <Stack.Navigator>
         {token ? (
           <>
-            <Stack.Screen name="Contacts" component={ContactsScreen} options={{ title: 'Contacts' }} />
+            <Stack.Screen name="Contacts" component={ContactsScreen} options={{ headerShown: false }} />
             <Stack.Screen name="Chat" component={ChatScreen} options={{ headerShown: false }} />
           </>
         ) : (
@@ -41,7 +41,7 @@ export default function App(): React.JSX.Element {
   return (
     <SafeAreaProvider>
       <AuthProvider>
-        <StatusBar style="auto" />
+        <StatusBar style="light" />
         <Root />
       </AuthProvider>
     </SafeAreaProvider>
